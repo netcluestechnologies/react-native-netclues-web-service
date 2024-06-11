@@ -1,5 +1,9 @@
 # react-native-netclues-web-service
 
+[![npm version](https://img.shields.io/npm/v/react-native-custom-post-service.svg?style=flat-square)](https://www.npmjs.com/package/react-native-custom-post-service)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-custom-post-service.svg?style=flat-square)](https://www.npmjs.com/package/react-native-custom-post-service)
+[![license](https://img.shields.io/npm/l/react-native-custom-post-service.svg?style=flat-square)](https://www.npmjs.com/package/react-native-custom-post-service)
+
 Axios API calls made easier with a customized React Native package. Its user-friendly interface simplifies HTTP requests, responses, and failures, making API integration a breeze and freeing you up to concentrate on developing features for your app rather than network request complications.
 
 ## Installation
@@ -65,14 +69,14 @@ postServiceCallWithBasicAuth(
 
 **postServiceCallWithBasicAuth** Makes a POST request to the specified endpoint with optional parameters, headers, and authentication.
 
-# Parameters:
+### Parameters:
 
-* **endpoint (string):** The API endpoint to which the request will be made.
-* **params (object, optional):** The parameters to be sent with the POST request.
-* **headers (object, optional):** Any custom headers to be included with the request.
-* **auth (object, optional):** Authentication credentials ({ username: string, password: string }).
-* **onSuccessCallBack (function, optional):** Callback function to handle successful response.
-* **onFailureCallBack (function, optional):** Callback function to handle errors.
+* **endpoint (string)**: The API endpoint to which the request will be made.
+* **params (object, optional)**: The parameters to be sent with the POST request.
+* **headers (object, optional)**: Any custom headers to be included with the request.
+* **auth (object, optional)**: Authentication credentials ({ username: string, password: string }).
+* **onSuccessCallBack (function, optional)**: Callback function to handle successful response.
+* **onFailureCallBack (function, optional)**: Callback function to handle errors.
 
 ## Contributing
 
