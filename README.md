@@ -83,10 +83,6 @@ postServiceCallWithBasicAuth(
 * **onSuccessCallBack (function, optional)**: Callback function to handle successful response.
 * **onFailureCallBack (function, optional)**: Callback function to handle errors.
 
-## Contributing
-
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
-
 ## License
 
 This project is licensed under the MIT License.
