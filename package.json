@@ -1,7 +1,7 @@
 {
   "name": "react-native-netclues-web-service",
   "version": "0.1.0",
-  "description": "Axios API calls easier with a customized React Native package.",
+  "description": "Axios API calls made easier with a customized React Native package. Its user-friendly interface simplifies HTTP requests, responses, and failures, making API integration a breeze and freeing you up to concentrate on developing features for your app rather than network request complications.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
@@ -37,7 +37,14 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "api",
+    "post",
+    "web service",
+    "fetch",
+    "http",
+    "https",
+    "netclues"
   ],
   "repository": {
     "type": "git",
@@ -155,5 +162,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "axios": "^1.7.2"
   }
 }
