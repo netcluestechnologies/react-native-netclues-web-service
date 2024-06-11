@@ -1,12 +1,12 @@
-# react-native-netclues-web-service
+# @netclues/react-native-netclues-web-service
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.2.2-blue.svg?logo=typescript&style=flat)](https://www.typescriptlang.org/)
 [![React Native](https://img.shields.io/badge/React%20Native-Supported-green.svg?style=flat-square)](https://reactnative.dev/)
 [![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20Android-lightgrey.svg?style=flat-square)](https://www.reactnative.dev/)
-[![npm version](https://img.shields.io/npm/v/react-native-netclues-web-service.svg?style=flat-square)](https://www.npmjs.com/package/react-native-netclues-web-service)
-[![npm downloads](https://img.shields.io/npm/dm/react-native-netclues-web-service.svg?style=flat-square)](https://www.npmjs.com/package/react-native-netclues-web-service)
+[![npm version](https://img.shields.io/npm/v/@netclues/react-native-netclues-web-service.svg?style=flat-square)](https://www.npmjs.com/package/@netclues/react-native-netclues-web-service)
+[![npm downloads](https://img.shields.io/npm/dm/@netclues/react-native-netclues-web-service.svg?style=flat-square)](https://www.npmjs.com/package/@netclues/react-native-netclues-web-service)
 [![Axios](https://img.shields.io/badge/Axios-Used-blue.svg?style=flat-square)](https://github.com/axios/axios)
-[![license](https://img.shields.io/npm/l/react-native-netclues-web-service.svg?style=flat-square)](https://www.npmjs.com/package/react-native-netclues-web-service)
+[![license](https://img.shields.io/npm/l/@netclues/react-native-netclues-web-service.svg?style=flat-square)](https://www.npmjs.com/package/@netclues/react-native-netclues-web-service)
 
 
 Axios API calls made easier with a customized React Native package. Its user-friendly interface simplifies HTTP requests, responses, and failures, making API integration a breeze and freeing you up to concentrate on developing features for your app rather than network request complications.
@@ -16,13 +16,13 @@ Axios API calls made easier with a customized React Native package. Its user-fri
 Using npm:
 
 ```sh
-npm install react-native-netclues-web-service
+npm install @netclues/react-native-netclues-web-service
 ```
 
 or using yarn:
 
 ```sh
-yarn add  react-native-netclues-web-service
+yarn add  @netclues/react-native-netclues-web-service
 ```
 
 ## Configuration
@@ -31,7 +31,7 @@ Before making any API calls, you need to configure the package with your base UR
 
 ```js
 // config.ts
-import { Config } from 'react-native-netclues-web-service';
+import { Config } from '@netclues/react-native-netclues-web-service';
 
 export const CONFIG: Config = {
     BASE_URL: '', // Base url of your API
@@ -45,7 +45,7 @@ export const CONFIG: Config = {
 Then, initialize the configuration once in your application:
 
 ```js
-import { setConfig } from 'react-native-netclues-web-service';
+import { setConfig } from '@netclues/react-native-netclues-web-service';
 import { CONFIG } from './config';  // Adjust the import path as needed
 
 // Set the configuration once
@@ -57,7 +57,7 @@ setConfig(CONFIG);
 To use the postServiceCallWithBasicAuth function, you can import it and call it with the necessary parameters. The function allows for dynamic headers and optional authentication.
 
 ```js
-import { postServiceCallWithBasicAuth } from 'react-native-netclues-web-service';
+import { postServiceCallWithBasicAuth } from '@netclues/react-native-netclues-web-service';
 
 postServiceCallWithBasicAuth(
    endpoint,  // Endpoint for the API

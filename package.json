@@ -1,5 +1,5 @@
 {
-  "name": "react-native-netclues-web-service",
+  "name": "@netclues/react-native-netclues-web-service",
   "version": "0.1.0",
   "description": "Axios API calls made easier with a customized React Native package. Its user-friendly interface simplifies HTTP requests, responses, and failures, making API integration a breeze and freeing you up to concentrate on developing features for your app rather than network request complications.",
   "main": "lib/commonjs/index",
@@ -165,5 +165,9 @@
   },
   "dependencies": {
     "axios": "^1.7.2"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib"
   }
 }
